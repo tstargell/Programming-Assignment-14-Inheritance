@@ -9,6 +9,7 @@ using namespace std;
 class Truck
 {
 private:
+        // Member variables
 	string manufacturer;
 	int year, towingCapacity;
 public:
