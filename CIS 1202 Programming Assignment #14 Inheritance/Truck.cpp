@@ -10,14 +10,14 @@ Truck::Truck()
 Truck::Truck(string m, int y, int tC)
 	{
 	    manufacturer = m;
-		year = y;
-		towingCapacity = tC;
+	    year = y;
+	    towingCapacity = tC;
 	}
 
 void Truck::displayInfo() // Method to display the contents of the object
 {
 	cout << "Vehicle Information:" << endl
-		 << "Manufacturer: " << getManufacturer() << endl
-		 << "Year Built: " << getYear() << endl
+	     << "Manufacturer: " << getManufacturer() << endl
+	     << "Year Built: " << getYear() << endl
 	     << "Towing capacity: " << getTowingCapacity() << endl;
 }
