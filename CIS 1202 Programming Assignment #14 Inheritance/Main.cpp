@@ -1,6 +1,3 @@
-// Taylor Stargell
-// CIS 1202 R02
-// November 27, 2023
 
 #include <string>
 #include <iostream>
