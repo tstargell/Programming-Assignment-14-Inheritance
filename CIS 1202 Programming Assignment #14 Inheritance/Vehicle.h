@@ -18,7 +18,7 @@ public:
 	Vehicle(string m, int y);
 
 	// Accessors
-    string getManufacturer() const
+        string getManufacturer() const
 	{
 		return manufacturer;
 	}
