@@ -15,6 +15,6 @@ Vehicle::Vehicle(string m, int y)
 void Vehicle::displayInfo() // Method to display the contents of the object
 {
 	cout << "Vehicle Information:" << endl
-		 << "Manufacturer: " << getManufacturer() << endl
-		 << "Year Built: " << getYear() << endl;
+	     << "Manufacturer: " << getManufacturer() << endl
+	     << "Year Built: " << getYear() << endl;
 }
