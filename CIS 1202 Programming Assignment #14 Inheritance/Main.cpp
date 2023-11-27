@@ -10,6 +10,8 @@ int main()
 	string manufacturer;
 	int year, doors, towingCapacity;
 
+	// Gets input from the user for manufacturer and year built, then stores this information in a Vehicle object. 
+	// Calls the displayInfo method and displays it on the output.
 	cout << "Vehicle Program" << endl;
 	cout << " " << endl;
 	cout << "Vehicle:" << endl;
@@ -21,6 +23,8 @@ int main()
 	Vehicle newVehicle(manufacturer, year);
 	newVehicle.displayInfo();
 
+	// Gets input from the user for manufacturer, year built, and number of doors, then stores this information in a Car object. 
+	// Calls the displayInfo method and displays it on the output.
 	cout << " " << endl;
 	cout << "Car:" << endl;
 	cout << "Enter the manufacturer: ";
@@ -33,6 +37,8 @@ int main()
 	Car newCar(manufacturer, year, doors);
 	newCar.displayInfo();
 
+	// Gets input from the user for manufacturer, year built, and towing capacity, then stores this information in a Truck object.
+	// Calls the displayInfo method and displays it on the output.
 	cout << " " << endl;
 	cout << "Truck:" << endl;
 	cout << "Enter the manufacturer: ";
