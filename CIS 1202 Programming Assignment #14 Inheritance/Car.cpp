@@ -10,8 +10,8 @@ Car::Car()
 Car::Car(string m, int y, int d)
 	{
 	    manufacturer = m;
-		year = y;
-		doors = d;
+	    year = y;
+	    doors = d;
 	}
 void Car::displayInfo() // Method to display the contents of the object
 {
